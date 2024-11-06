@@ -33,6 +33,6 @@ const ExpenseSchema = new mongoose.Schema({
         maxLenght: 20,
         trim: true
     },
-}, {timestamps : true})
+}, {timestamps: true})
 
 module.exports = mongoose.model('Expense', ExpenseSchema)
