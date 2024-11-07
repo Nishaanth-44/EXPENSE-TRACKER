@@ -5,7 +5,7 @@ const ExpenseSchema = new mongoose.Schema({
         type: String,
         required: true,
         trim: true,
-        maxLenght: 50,
+        maxLength: 50,
     },
     amount: {
         type: Number,
@@ -30,7 +30,7 @@ const ExpenseSchema = new mongoose.Schema({
     description: {
         type: String,
         required: true,
-        maxLenght: 20,
+        maxLength: 20,
         trim: true
     },
 }, {timestamps: true})
